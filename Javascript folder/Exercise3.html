@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      charset="UTF
+-8"
+    />
+    <meta
+      name="viewport"
+      content="width=device
+-
+width, initial
+-scale=1.0"
+    />
+    <title>Module 1 Exercise 3</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 0;
+      }
+      .container {
+        display: flex;
+        min-height: 100vh;
+        align-items: stretch;
+      }
+      .column {
+        background: goldenrod;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+        function click2(){
+            document.getElementById("heading2").innerHTML = "This is changed";
+            document.getElementById()
+        }
+      </script>
+    <div class="container">
+      <div class="column" id="column1">
+        <h1 id="heading1">Hello</h1>
+        <button onclick="click1()" id="button1">Click</button>
+      </div>
+      <div class="column" id="column2">
+        <h1 id="heading2">World</h1>
+        <button  onclick="click2()" id="button2">Click</button>
+      </div>
+    </div>
+  </body>
+  <script>
+    function click1(){
+       document.getElementById("column1").style.background = "blue";
+       document.getElementById("column1").style.color = "green"
+    }
+    
+  </script>
+</html>
