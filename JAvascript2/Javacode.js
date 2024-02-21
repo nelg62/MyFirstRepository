@@ -18,6 +18,11 @@ function personName(name) {
   console.log(`Hello ${name}`);
 }
 
+if(addFun(5,5)!= 10) {error};
+if(minusFun(5,5)!= 0) {error};
+if(divideFun(5,5)!=1) {error};
+if(timesFun(5,5)!=25) {error}
+
 const myArray = ['apple', 'car', 'tree', 'pig', 'watermelon']
 myArray.splice(0, 1, 'monkey')
 myArray.splice(3,1, 'Porcupine')
@@ -51,3 +56,7 @@ console.info("info message");
 console.warn("warning message");
 
 console.error("error message");
+
+
+
+
